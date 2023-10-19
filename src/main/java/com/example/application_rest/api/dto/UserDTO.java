@@ -1,19 +1,19 @@
-package com.example.application_rest.api.model;
+package com.example.application_rest.api.dto;
 
-public class User {
-
+public class UserDTO {
     private int id;
     private String name;
     private int age;
     private String email;
 
-    public User(int id, String name, int age, String email) {
+    public UserDTO(int id, String name, int age, String email) {
         this.id = id;
         this.name = name;
         this.age = age;
         this.email = email;
     }
 
+    // Get and Set
     public int getId() {
         return id;
     }
